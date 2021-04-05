@@ -1,4 +1,4 @@
-// init github 
+// init github varibale from Github Class
 const github = new Github;
 // init ui 
 const ui = new UI;
