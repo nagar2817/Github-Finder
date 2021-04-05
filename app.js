@@ -3,7 +3,9 @@ const github = new Github;
 // init ui 
 const ui = new UI;
 
+// a variable to take input using ID attribute
 const userInput = document.getElementById('searchUser');
+
 userInput.addEventListener('keyup',(e)=>{
     const userName = e.target.value;
     if(userName !== ''){
